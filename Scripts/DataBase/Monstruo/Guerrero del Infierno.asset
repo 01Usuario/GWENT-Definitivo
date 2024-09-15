@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b10068796bb9c644da47c323e611f3d3, type: 3}
+  m_Name: Guerrero del Infierno
+  m_EditorClassIdentifier: 
+  cardName: Guerrero del Infierno
+  cardImage: {fileID: 21300000, guid: e15281d71d460e646b2e899a93cee554, type: 3}
+  cardDescription: Esta carta te permite robar dos cartas del deck
+  cardFaction: Monstruo
+  ranges: 000000000100000002000000
+  originalPoints: 10
+  Power: 10
+  Effect: Draw
+  borderColor: {r: 1, g: 0.84313726, b: 0, a: 1}
+  effects: []
+  type: 0
+  Owner: 2
