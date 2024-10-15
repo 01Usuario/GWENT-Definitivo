@@ -16,7 +16,7 @@ public class CardSO : ScriptableObject
     public int Power;
     public string Effect;
     public Color borderColor;
-    public List<CardEffect> effects = new List<CardEffect>();
+    public List<CardEffect> OnActivation = new List<CardEffect>();
     public CardType type;
     public int Owner;
     public EffectNode postAction;

@@ -16,8 +16,10 @@ public class Deck : MonoBehaviour
 
     private void Start()
     {
+
         StartNewGame();
     }
+
 
     void Update()
     {

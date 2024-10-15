@@ -4359,26 +4359,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1746821417}
-  - component: {fileID: 1746821416}
+  - component: {fileID: 1746821418}
   m_Layer: 0
-  m_Name: Singleton Deck
+  m_Name: Hand Initializer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1746821416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746821415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db5b4ae06891d994f8c36490210e2daa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1746821417
 Transform:
   m_ObjectHideFlags: 0
@@ -4394,6 +4382,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1746821418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746821415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bf1978549920ab4baffc888ec05aa2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1HandPanel: {fileID: 1211802212}
+  player2HandPanel: {fileID: 665004087}
+  cardPrefab: {fileID: 5270020300881879705, guid: c26aa56e76f0c4840953755205655dab, type: 3}
 --- !u!1 &1816912871
 GameObject:
   m_ObjectHideFlags: 0
